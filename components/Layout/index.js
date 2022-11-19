@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function Layout({children}) {
+export default function Layout({ children }) {
   return (
     <div className="p-10 font-mono">
       <nav className="bg-blue-400 p-5 flex justify-center">
