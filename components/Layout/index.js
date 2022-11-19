@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
-export default function Layout({children}) {
-  return(
+export default function Layout({ children }) {
+  return (
     <div className="p-10 font-mono">
       <nav className="bg-blue-400 p-5 flex justify-center">
         <Link href="/">
@@ -12,9 +12,10 @@ export default function Layout({children}) {
         </Link>
       </nav>
 
-      <main className="bg-gray-100 p-5"> {
-        children}</main>
-      <footer className="bg-blue-400 p-5 text-gray-100 text-center">{new Date().getFullYear()}</footer>
+      <main className="bg-gray-100 p-5"> {children}</main>
+      <footer className="bg-blue-400 p-5 text-gray-100 text-center">
+        {new Date().getFullYear()}
+      </footer>
     </div>
   );
 }
