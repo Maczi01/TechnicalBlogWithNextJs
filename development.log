@@ -15,3 +15,20 @@
 	"level": "info",
 	"message": "[API] Request for flow/create-entity"
 }
+[info] [API] Request for flow/create-entity: {
+	"action": "flow/create-entity",
+	"params": {},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/MateuszTwardy/WebstormProjects/untitled2/blog_app"
+		},
+		"userContext": {
+			"id": "fOLAqhM9t-",
+			"correlationId": "jSH5_YZPaq",
+			"clickedPath": "C:/Users/MateuszTwardy/WebstormProjects/untitled2/blog_app/.lintstagedrc",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for flow/create-entity"
+}
