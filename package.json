@@ -34,10 +34,10 @@
       "pre-commit": "lint-staged"
     }
   },
-  "lint-staged":{
-    "**/*.{js,jsx,ts,tsx}":[
-      "npx prettier --write",
-      "npx eslint --fix"
+  "lint-staged": {
+    "*.js": [
+      "./node_modules/.bin/eslint — fix",
+      "git add"
     ]
   }
 }
