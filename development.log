@@ -1,0 +1,17 @@
+[info] [API] Request for flow/create-entity: {
+	"action": "flow/create-entity",
+	"params": {},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/MateuszTwardy/WebstormProjects/untitled2/blog_app"
+		},
+		"userContext": {
+			"id": "fOLAqhM9t-",
+			"correlationId": "ii_fKeB19E",
+			"clickedPath": "C:/Users/MateuszTwardy/WebstormProjects/untitled2/blog_app/pages/about.js",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for flow/create-entity"
+}
