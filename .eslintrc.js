@@ -31,6 +31,7 @@ module.exports = {
     'nonblock-statement-body-position': 'error',
     'object-curly-newline': 'error',
     'object-property-newline': 'error',
+    'no-console': ['error', { allow: ['error'] }],
     'jsx-a11y/anchor-is-valid': [
       'error',
       {
