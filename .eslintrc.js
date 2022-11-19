@@ -28,10 +28,9 @@ module.exports = {
     'prettier/prettier': ['error', {}, { usePrettierrc: true }], // Use our .prettierrc file as source
     'react/react-in-jsx-scope': 'off',
     'no-whitespace-before-property': 'off',
-    'nonblock-statement-body-position': 'off',
-    'object-curly-newline': 'off',
-    'object-curly-spacing': 'off',
-    'object-property-newline': 'off',
+    'nonblock-statement-body-position': 'error',
+    'object-curly-newline': 'error',
+    'object-property-newline': 'error',
     'jsx-a11y/anchor-is-valid': [
       'error',
       {
