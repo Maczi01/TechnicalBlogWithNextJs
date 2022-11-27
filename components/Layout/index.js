@@ -16,7 +16,7 @@ export default function Layout({ children }) {
         </Link>
       </nav>
 
-      <main className="bg-gray-100 p-5">{children}</main>
+      <main className="bg-gray-100 p-5"> {children}</main>
       <footer className="bg-blue-400 p-5 text-gray-100 text-center">
         {new Date().getFullYear()}
       </footer>
