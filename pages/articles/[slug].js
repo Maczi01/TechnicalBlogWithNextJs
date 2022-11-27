@@ -1,6 +1,6 @@
 import Layout from 'components/Layout';
 import Head from 'next/head';
-import { getListOfArticles, getArticle } from 'services/articles';
+import { getListOfArticles, getArticle } from '../../services/articles';
 
 export const getStaticPaths = async () => {
   const articles = getListOfArticles('_articles');
